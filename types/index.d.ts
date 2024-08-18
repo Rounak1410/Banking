@@ -26,6 +26,7 @@ declare type LoginUser = {
 };
 
 declare type User = {
+  name: ReactNode;
   $id: string;
   email: string;
   userId: string;
